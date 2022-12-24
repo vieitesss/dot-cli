@@ -1,6 +1,7 @@
 {
   "name": "dotfiles-cli",
   "description": "CLI app that helps you generate and modify your personal dotfiles",
+  "repository": "vieitesss/dotfiles-cli",
   "version": "0.0.2",
   "license": "MIT",
   "bin": {
