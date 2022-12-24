@@ -1,5 +1,5 @@
 {
-	"name": "dot-cli",
+	"name": "@vieitesss_/dot-cli",
 	"description": "CLI app that helps you generate and modify your personal dotfiles",
 	"version": "0.0.1",
 	"license": "MIT",
