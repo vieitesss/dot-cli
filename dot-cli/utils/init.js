@@ -7,7 +7,7 @@ module.exports = () => {
 	welcome({
 		title: `dot-cli`,
 		tagLine: `by vieitesss`,
-		description: pkg.description,
+		description: `${pkg.description}\nTry 'dot-cli -h'`,
 		version: pkg.version,
 		bgColor: '#36BB09',
 		color: '#000000',
