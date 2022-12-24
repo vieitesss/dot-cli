@@ -17,7 +17,9 @@ const { help, debug } = flags;
 
 (async () => {
 	init();
-	(process.argv.slice(2).length === 0 || help) && cli.showHelp(0);
+	help && cli.showHelp(0);
 
 	debug && log(flags);
+
+	console.log(`Work in progress....`);
 })();
