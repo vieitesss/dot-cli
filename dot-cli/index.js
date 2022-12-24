@@ -13,11 +13,11 @@ const log = require('./utils/log');
 
 const input = cli.input;
 const flags = cli.flags;
-const { clear, debug } = flags;
+const { help, debug } = flags;
 
 (async () => {
-	init({ clear });
-	input.includes(`help`) && cli.showHelp(0);
+	init();
+	(process.argv.slice(2).length === 0 || help) && cli.showHelp(0);
 
 	debug && log(flags);
 })();
