@@ -1,19 +1,21 @@
 {
-  "name": "@vieitesss_/dot-cli",
+  "name": "dotfiles-cli",
   "description": "CLI app that helps you generate and modify your personal dotfiles",
   "version": "0.0.2",
   "license": "MIT",
   "bin": {
-    "dot-cli": "index.js",
-    "dot": "index.js"
+    "dotfiles-cli": "index.js",
+    "dfs": "index.js"
   },
   "author": {
-    "name": "vieitesss",
+    "name": "vieitesss_",
     "email": "dvieitest@gmail.com",
     "url": "https://github.com/vieitesss"
   },
   "keywords": [
     "dot-cli",
+    "dotfiles",
+    "files",
     "dot",
     "vieitesss"
   ],
